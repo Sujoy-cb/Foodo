@@ -1,0 +1,1575 @@
+@media (min-width:320px) and (max-width:575px) {
+    .buttons a {
+        padding: 7px 8px;
+        font-size: 15px;
+    }
+
+    .buttons a::before {
+        top: -5px;
+        left: 0;
+    }
+
+    .title h3 {
+        font-size: 40px;
+    }
+
+    /*============================
+     Preloader part css start
+    =============================*/
+    #preloader-part .loader {
+        margin-left: -250px !important;
+    }
+
+    /*============================
+     Preloader part css end
+    =============================*/
+
+    /* ============================
+        Nav bar part css start
+    ============================ */
+    nav .img {
+        width: 80%;
+    }
+
+    nav .img img {
+        width: 100%;
+    }
+
+    nav .m-menu {
+        display: block;
+        color: #ffc200;
+        font-size: 25px;
+        position: fixed !important;
+        top: 45px;
+        right: 20px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    nav ul {
+        background: #ffffff;
+        padding: 0 !important;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-left: 0 !important;
+    }
+
+    nav ul li a {
+        color: #444444;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    nav .icon a {
+        display: block;
+        position: absolute;
+        top: 22px;
+        right: 65px;
+    }
+
+    /* ============================
+        Nav bar part css end
+    ============================ */
+
+    /* ============================
+        Search part css start
+    ============================ */
+    #search-part .search-overlay {
+        width: 78%;
+        right: 40px;
+        padding: 10px;
+    }
+
+    #search-part .search-overlay .cross {
+        top: -3px;
+        right: 2px;
+    }
+
+    #search-part .search-overlay input {
+        width: 100%;
+        padding: 4px 6px;
+    }
+
+    #search-part .search-overlay button {
+        top: 14px;
+        right: 24px;
+    }
+
+    /* ============================
+        Search part css end
+    ============================ */
+
+
+    /* ============================
+        Banner part css start
+    ============================ */
+    #banner-part .banner {
+        padding: 100px 0;
+    }
+
+    #banner-part .text h1 {
+        font-size: 50px;
+        margin-top: 100px;
+    }
+
+    #banner-part .text p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    /* ============================
+        Banner part css end
+    ============================ */
+
+    /* ============================
+        About part css start
+    ============================ */
+    #about-part {
+        padding: 80px 0;
+    }
+
+    #about-part .item {
+        margin-top: 30px;
+    }
+
+    #about-part .text p {
+        font-size: 13px;
+        width: auto;
+    }
+
+    #about-part .text p:nth-child(2) {
+        margin-top: 25px;
+    }
+
+    /* ============================
+        About part css end
+    ============================ */
+
+
+    /* ============================
+        Seller part css start
+    ============================ */
+    #seller-part {
+        padding: 80px 0;
+    }
+
+    #seller-part .title p {
+        font-size: 13px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #seller-part .item {
+        margin-top: 30px;
+    }
+
+    #seller-part .item .img img {
+        width: 100%;
+    }
+
+    #seller-part .item .text h3 {
+        font-size: 28px;
+    }
+
+    #seller-part .item .text p {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    /* ============================
+        Seller part css end
+    ============================ */
+
+    /* ============================
+        Oriental part css start
+    ============================ */
+    #oriental-part {
+        padding: 80px 0;
+    }
+
+    #oriental-part .text {
+        text-align: center;
+    }
+
+    #oriental-part .text .title {
+        text-align: center;
+        margin-top: 65px;
+    }
+
+    #oriental-part .text .title p {
+        font-size: 13px;
+        width: auto;
+    }
+
+    /* ============================
+        Oriental part css end
+    ============================ */
+
+
+    /* ============================
+        Counter part css start
+    ============================ */
+    #counter-part {
+        padding: 80px 0;
+    }
+
+    #counter-part .title p {
+        font-size: 13px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #counter-part .time-box {
+        width: 230px;
+        height: 230px;
+        margin: auto;
+        margin-top: 30px !important;
+    }
+
+    #counter-part .time-box .count-num {
+        font-size: 45px;
+    }
+
+    #counter-part .time-box h4 {
+        font-size: 25px;
+    }
+
+    /* ============================
+        Counter part css end
+    ============================ */
+
+    /* ============================
+        Gallery part css start
+    ============================ */
+    #gallery-part {
+        padding: 80px 0;
+    }
+
+    #gallery-part .title p {
+        font-size: 13px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #gallery-part .top-gallery .food-item {
+        margin-top: 40px;
+    }
+
+    /* ============================
+        Gallery part css end
+    ============================ */
+
+
+    /* ============================
+        Video part css start
+    ============================ */
+    #video-part .overlay {
+        padding: 80px 0;
+    }
+
+    #video-part .overlay .title p {
+        font-size: 13px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    /* ============================
+        Video part css end
+    ============================ */
+
+
+    /* ============================
+        Chef part css start
+    ============================ */
+    #chef-part {
+        padding: 80px 0;
+    }
+
+    #chef-part .title p {
+        font-size: 13px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #chef-part .chef {
+        margin-top: 30px;
+    }
+
+    #chef-part .chef .img .chef-overlay {
+        top: 194px;
+    }
+
+    /* ============================
+        Chef part css end
+    ============================ */
+
+
+    /* ============================
+        Resarvation part css start
+    ============================ */
+    #resarvation-part .title p {
+        font-size: 13px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #resarvation-part form {
+        width: 100%;
+    }
+
+    #resarvation-part form .form-item input {
+        width: 250px;
+        font-size: 13px;
+        padding: 5px;
+        margin: 8px 0;
+    }
+
+    #resarvation-part form .form-item select {
+        width: 250px;
+        font-size: 13px;
+        padding: 7px;
+        margin: 8px 0;
+    }
+
+    #resarvation-part form .buttons button {
+        padding: 7px 8px;
+        font-size: 15px;
+    }
+
+    #resarvation-part form .buttons button:before {
+        top: -5px;
+        left: 0;
+    }
+
+    /* ============================
+        Resarvation part css end
+    ============================ */
+
+    /* ============================
+    Go top button part css start
+    ============================ */
+    .top-button span {
+        font-size: 18px;
+        padding: 4px 9px;
+    }
+
+    /* ============================
+    Go top button part css end
+    ============================ */
+
+    /* ============================
+        Footer part css start
+    ============================ */
+    #footer-part .details p {
+        font-size: 13px;
+        width: auto;
+    }
+
+    #footer-part .contact ul li {
+        font-size: 13px;
+    }
+
+    #footer-part .service ul li a {
+        font-size: 13px;
+    }
+
+    #footer-part .copy-part p {
+        font-size: 13px;
+    }
+
+    /* ============================
+        Footer part css end
+    ============================ */
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .buttons a {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+
+    .buttons a::before {
+        top: -5px;
+        left: 0;
+    }
+
+
+    /*============================
+     Preloader part css start
+    =============================*/
+    #preloader-part .loader {
+        margin-top: 100px;
+        margin-left: -140px !important;
+    }
+    /*============================
+     Preloader part css end
+    =============================*/
+
+    /* ============================
+        Nav bar part css start
+    ============================ */
+    nav .img {
+        width: 100%;
+    }
+
+    nav .img img {
+        width: 100%;
+    }
+
+    nav .m-menu {
+        display: block;
+        color: #ffc200;
+        font-size: 25px;
+        position: fixed !important;
+        top: 59px;
+        right: 84px;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    nav ul {
+        background: #ffffff;
+        padding: 0 !important;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-left: 0 !important;
+    }
+
+    nav ul li a {
+        color: #444444;
+        font-size: 30px;
+        font-weight: 500;
+    }
+
+    nav .icon a {
+        display: block;
+        position: absolute;
+        top: 35px;
+        right: 43px;
+    }
+
+    /* ============================
+        Nav bar part css end
+    ============================ */
+
+
+    /* ============================
+        Search part css start
+    ============================ */
+    #search-part .search-overlay {
+        width: 80%;
+        right: 50px;
+        padding: 15px 10px;
+    }
+
+    #search-part .search-overlay .cross {
+        top: -3px;
+        right: 6px;
+    }
+
+    #search-part .search-overlay input {
+        width: 100%;
+        padding: 6px;
+    }
+
+    #search-part .search-overlay button {
+        top: 20px;
+        right: 27px;
+    }
+
+    /* ============================
+        Search part css end
+    ============================ */
+
+
+    /* ============================
+        Banner part css start
+    ============================ */
+    #banner-part .banner {
+        padding: 100px 0;
+    }
+
+    #banner-part .text {
+        text-align: center;
+    }
+
+    #banner-part .text h1 {
+        font-size: 55px;
+        margin-top: 190px;
+    }
+
+    #banner-part .text p {
+        font-size: 15px;
+        width: auto;
+    }
+
+    /* ============================
+        Banner part css end
+    ============================ */
+
+
+    /* ============================
+        About part css start
+    ============================ */
+    #about-part {
+        padding: 80px 0;
+    }
+
+    #about-part .item {
+        margin-top: 30px;
+    }
+
+    #about-part .text {
+        text-align: center;
+    }
+
+    #about-part .text p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #about-part .text p:nth-child(2) {
+        margin-top: 25px;
+    }
+
+    /* ============================
+        About part css end
+    ============================ */
+
+    /* ============================
+        Seller part css start
+    ============================ */
+    #seller-part {
+        padding: 80px 0;
+    }
+
+    #seller-part .title p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #seller-part .item {
+        margin-top: 30px;
+    }
+
+    #seller-part .item .img img {
+        width: 100%;
+    }
+
+    #seller-part .item .text h3 {
+        font-size: 28px;
+    }
+
+    #seller-part .item .text p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    /* ============================
+        Seller part css end
+    ============================ */
+
+    /* ============================
+        Oriental part css start
+    ============================ */
+    #oriental-part {
+        padding: 80px 0;
+    }
+
+    #oriental-part .text {
+        text-align: center;
+    }
+
+    #oriental-part .text .title {
+        text-align: center;
+        margin-top: 65px;
+    }
+
+    #oriental-part .text .title p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    /* ============================
+        Oriental part css end
+    ============================ */
+    /* ============================
+        Counter part css start
+    ============================ */
+    #counter-part {
+        padding: 100px 0;
+    }
+
+    #counter-part .title {
+        margin-top: 35px;
+    }
+
+    #counter-part .title p {
+        font-size: 13px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #counter-part .time-box {
+        width: 230px;
+        height: 230px;
+        margin: auto;
+        margin-top: 30px !important;
+    }
+
+    #counter-part .time-box .count-num {
+        font-size: 45px;
+    }
+
+    #counter-part .time-box h4 {
+        font-size: 25px;
+    }
+
+    /* ============================
+        Counter part css end
+    ============================ */
+
+
+    /* ============================
+        Gallery part css start
+    ============================ */
+    #gallery-part {
+        padding: 80px 0;
+    }
+
+    #gallery-part .large-part {
+        display: none;
+    }
+
+    #gallery-part .small-part {
+        display: block;
+    }
+
+    #gallery-part .title p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #gallery-part .food-item {
+        margin-top: 25px;
+    }
+
+    #gallery-part .food-item .img .name-price h5 span {
+        margin-left: 60px;
+    }
+
+    /* ============================
+        Gallery part css end
+    ============================ */
+
+    /* ============================
+        Video part css start
+    ============================ */
+    #video-part .overlay {
+        padding: 80px 0;
+    }
+
+    #video-part .overlay .title p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    /* ============================
+        Video part css end
+    ============================ */
+
+    /* ============================
+        Chef part css start
+    ============================ */
+    #chef-part {
+        padding: 80px 0;
+    }
+
+    #chef-part .title p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #chef-part .chef {
+        margin-top: 25px;
+    }
+
+    #chef-part .chef .img .chef-overlay {
+        top: 194px;
+    }
+
+    #chef-part .chef .img .chef-overlay .details h4 {
+        font-size: 18px;
+    }
+
+    #chef-part .chef .img .chef-overlay .details p {
+        font-size: 14px;
+    }
+
+    /* ============================
+        Chef part css end
+    ============================ */
+    /* ============================
+        Resarvation part css start
+    ============================ */
+    #resarvation-part .title p {
+        font-size: 14px;
+        width: auto;
+        margin-top: 10px;
+    }
+
+    #resarvation-part form {
+        width: 100%;
+    }
+
+    #resarvation-part form .form-item input {
+        width: 400px;
+        font-size: 14px;
+        padding: 5px;
+        margin: 8px 0;
+    }
+
+    #resarvation-part form .form-item select {
+        width: 400px;
+        font-size: 14px;
+        padding: 7px;
+        margin: 8px 0;
+    }
+
+    #resarvation-part form .buttons button {
+        padding: 7px 8px;
+        font-size: 15px;
+    }
+
+    #resarvation-part form .buttons button:before {
+        top: -5px;
+        left: 0;
+    }
+
+    /* ============================
+        Resarvation part css end
+    ============================ */
+
+
+    /* ============================
+    Go top button part css start
+    ============================ */
+    .top-button span {
+        font-size: 18px;
+        padding: 4px 9px;
+    }
+
+    /* ============================
+    Go top button part css end
+    ============================ */
+
+    /* ============================
+        Footer part css start
+    ============================ */
+    #footer-part .details p {
+        font-size: 14px;
+        width: auto;
+    }
+
+    #footer-part .contact ul li {
+        font-size: 14px;
+    }
+
+    #footer-part .service ul li a {
+        font-size: 14px;
+    }
+
+    #footer-part .copy-part p {
+        font-size: 14px;
+    }
+
+    /* ============================
+        Footer part css end
+    ============================ */
+}
+
+@media (min-width:768px) and (max-width:991px) {
+
+    .buttons a {
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+
+    .buttons a::before {
+        top: -5px;
+        left: 0;
+    }
+
+    /*============================
+     Preloader part css start
+    =============================*/
+    #preloader-part .loader {
+        margin-top: 150px;
+        margin-left: -57px !important;
+    }
+    /*============================
+     Preloader part css end
+    =============================*/
+
+
+    /* ============================
+        Nav bar part css start
+    ============================ */
+    nav .img {
+        width: 90%;
+    }
+
+    nav .img img {
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-left: 15px;
+    }
+
+    nav ul li a {
+        font-size: 15px;
+    }
+
+    nav .m-menu {
+        display: none;
+    }
+
+    /* ============================
+        Nav bar part css end
+    ============================ */
+
+
+    /* ============================
+        Search part css start
+    ============================ */
+    #search-part .search-overlay {
+        width: 80%;
+        right: 50px;
+        padding: 20px 10px;
+    }
+
+    #search-part .search-overlay .cross {
+        top: 0;
+        right: 7px;
+    }
+
+    #search-part .search-overlay input {
+        width: 100%;
+        padding: 8px;
+    }
+
+    #search-part .search-overlay button {
+        top: 27px;
+        right: 27px;
+    }
+
+    /* ============================
+        Search part css end
+    ============================ */
+
+
+    /* ============================
+        Banner part css start
+    ============================ */
+    #banner-part .banner {
+        padding: 100px 0;
+        overflow: hidden;
+    }
+
+    #banner-part .text h1 {
+        font-size: 70px;
+        margin-top: 100px;
+    }
+
+    #banner-part .text p {
+        margin: auto;
+    }
+
+    /* ============================
+        Banner part css end
+    ============================ */
+
+    /* ============================
+        About part css start
+    ============================ */
+    #about-part {
+        padding: 100px 0;
+    }
+
+    #about-part .large-part {
+        display: none;
+    }
+
+    #about-part .small-part {
+        display: block;
+    }
+
+    #about-part .item {
+        margin-top: 35px;
+    }
+
+    #about-part .text p {
+        font-size: 13px;
+        width: 360px;
+        line-height: 20px;
+    }
+
+    #about-part .text p:nth-child(2) {
+        margin-top: 31px;
+    }
+
+    #about-part .img {
+        margin-top: 43px;
+    }
+
+    /* ============================
+        About part css end
+    ============================ */
+
+    /* ============================
+        Seller part css start
+    ============================ */
+    #seller-part {
+        padding: 100px 0;
+    }
+
+    #seller-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    #seller-part .item {
+        margin-top: 30px;
+    }
+
+    #seller-part .item .img img {
+        width: 100%;
+    }
+
+    #seller-part .item .text h3 {
+        font-size: 28px;
+    }
+
+    #seller-part .item .text p {
+        font-size: 13px;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+
+    /* ============================
+        Seller part css end
+    ============================ */
+
+
+    /* ============================
+        Oriental part css start
+    ============================ */
+    #oriental-part {
+        padding: 100px 0;
+    }
+
+    #oriental-part .img {
+        width: 90%;
+    }
+
+    #oriental-part .text .title {
+        margin-top: 15px;
+    }
+
+    #oriental-part .text .title p {
+        font-size: 13px;
+        line-height: 20px;
+        width: 335px;
+    }
+
+    /* ============================
+        Oriental part css end
+    ============================ */
+
+
+    /* ============================
+        Counter part css start
+    ============================ */
+    #counter-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    #counter-part .time-box {
+        width: 160px;
+        height: 160px;
+    }
+
+    #counter-part .time-box .single-counterup {
+        margin-top: 35px;
+    }
+
+    #counter-part .time-box .count-num {
+        font-size: 35px;
+    }
+
+    #counter-part .time-box h4 {
+        font-size: 22px;
+    }
+
+    /* ============================
+        Counter part css end
+    ============================ */
+
+
+    /* ============================
+        Gallery part css start
+    ============================ */
+    #gallery-part {
+        padding: 100px 0;
+    }
+
+    #gallery-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    #gallery-part .large-part {
+        display: block;
+    }
+
+    #gallery-part .small-part {
+        display: none;
+    }
+
+    #gallery-part .food-item .img .name-price h5 {
+        font-size: 18px;
+    }
+
+    #gallery-part .food-item .img .name-price h5 span {
+        margin-left: 45px;
+    }
+
+    /* ============================
+        Gallery part css end
+    ============================ */
+
+
+    /* ============================
+            Video part css start
+    ============================ */
+    #video-part .overlay {
+        padding: 100px 0;
+    }
+
+    #video-part .overlay .title p {
+        font-size: 14px;
+        width: 500px;
+    }
+
+    /* ============================
+            Video part css end
+    ============================ */
+
+
+    /* ============================
+            Chef part css start
+    ============================ */
+    #chef-part {
+        padding: 100px 0;
+    }
+
+    #chef-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    #chef-part .chef {
+        margin-top: 25px;
+    }
+
+    #chef-part .chef .img .chef-overlay {
+        top: 220px;
+    }
+
+    /* ============================
+            Chef part css end
+    ============================ */
+
+
+    /* ============================
+        Resarvation part css start
+    ============================ */
+    #resarvation-part {
+        padding: 100px 0;
+    }
+
+    #resarvation-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    #resarvation-part form {
+        width: 85%;
+    }
+
+    #resarvation-part form .form-item input {
+        width: 260px;
+        font-size: 14px;
+        padding: 6px;
+        margin: 8px 5px;
+    }
+
+    #resarvation-part form .form-item select {
+        width: 260px;
+        font-size: 14px;
+        padding: 7.5px;
+        margin: 8px 5px;
+    }
+
+    /* ============================
+        Resarvation part css end
+    ============================ */
+
+    /* ============================
+      Go top button part css start
+    ============================ */
+    .top-button span {
+        font-size: 20px;
+        padding: 6px 10px;
+    }
+
+    /* ============================
+        Go top button part css end
+    ============================ */
+
+
+    /* ============================
+        Footer part css start
+    ============================ */
+    #footer-part {
+        padding: 100px 0 20px 0;
+    }
+
+    #footer-part .details p {
+        font-size: 13px;
+        width: 327px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+
+    #footer-part ul {
+        margin-top: 15px;
+    }
+
+    #footer-part .contact ul li {
+        font-size: 13px;
+    }
+
+    #footer-part .service ul li a {
+        font-size: 13px;
+    }
+
+    #footer-part .copy-part p {
+        font-size: 16px;
+    }
+
+    /* ============================
+        Footer part css end
+    ============================ */
+
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+
+    .buttons a::before {
+        left: 0;
+    }
+
+
+    /*============================
+     Preloader part css start
+    =============================*/
+    #preloader-part .loader {
+        margin-top: 200px;
+        margin-left: -4px !important;
+    }
+    /*============================
+     Preloader part css end
+    =============================*/
+
+    /* ============================
+        Nav bar part css start
+    ============================ */
+    nav .img {
+        width: 90%;
+    }
+
+    nav .img img {
+        width: 100%;
+    }
+
+    nav ul li {
+        margin-left: 25px;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+    }
+
+    nav .m-menu {
+        display: none;
+    }
+
+    /* ============================
+        Nav bar part css end
+    ============================ */
+
+
+    /* ============================
+        Search part css start
+    ============================ */
+    #search-part .search-overlay {
+        width: 55%;
+        right: 50px;
+        padding: 20px 10px;
+    }
+
+    #search-part .search-overlay .cross {
+        top: 0;
+        right: 7px;
+    }
+
+    #search-part .search-overlay input {
+        width: 100%;
+        padding: 8px;
+    }
+
+    #search-part .search-overlay button {
+        top: 27px;
+        right: 27px;
+    }
+
+    /* ============================
+        Search part css end
+    ============================ */
+
+
+    /* ============================
+        Banner part css start
+    ============================ */
+    #banner-part .banner {
+        padding: 100px 0;
+        overflow: hidden;
+    }
+
+    /* ============================
+        Banner part css end
+    ============================ */
+
+    /* ============================
+        About part css start
+    ============================ */
+    #about-part {
+        padding: 100px 0;
+    }
+
+    #about-part .large-part {
+        display: block;
+    }
+
+    #about-part .small-part {
+        display: none;
+    }
+
+    #about-part .item {
+        margin-top: 35px;
+    }
+
+    #about-part .text p {
+        font-size: 14px;
+        width: 460px;
+        line-height: 24px;
+    }
+
+    #about-part .text p:nth-child(2) {
+        margin-top: 9px;
+    }
+
+    #about-part .img {
+        margin-top: 43px;
+    }
+
+    /* ============================
+        About part css end
+    ============================ */
+
+    /* ============================
+        Seller part css start
+    ============================ */
+    #seller-part {
+        padding: 100px 0;
+    }
+
+    #seller-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    #seller-part .item {
+        margin-top: 30px;
+    }
+
+    #seller-part .item .img img {
+        width: 100%;
+    }
+
+    #seller-part .item .text h3 {
+        font-size: 30px;
+    }
+
+    #seller-part .item .text p {
+        font-size: 14px;
+        margin-top: 10px;
+        line-height: 20px;
+    }
+
+    /* ============================
+        Seller part css end
+    ============================ */
+
+    /* ============================
+        Oriental part css start
+    ============================ */
+    #oriental-part {
+        padding: 100px 0;
+    }
+
+    #oriental-part .img {
+        width: 90%;
+    }
+
+    #oriental-part .text .title {
+        margin-top: 60px;
+    }
+
+    #oriental-part .text .title p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 378px;
+    }
+
+    /* ============================
+        Oriental part css end
+    ============================ */
+
+
+    /* ============================
+        Counter part css start
+    ============================ */
+    #counter-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    #counter-part .time-box {
+        width: 210px;
+        height: 210px;
+    }
+
+    #counter-part .time-box .single-counterup {
+        margin-top: 60px;
+    }
+
+    #counter-part .time-box .count-num {
+        font-size: 45px;
+    }
+
+    #counter-part .time-box h4 {
+        font-size: 28px;
+    }
+
+    /* ============================
+        Counter part css end
+    ============================ */
+
+
+
+    /* ============================
+        Gallery part css start
+    ============================ */
+    #gallery-part {
+        padding: 100px 0;
+    }
+
+    #gallery-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    /* ============================
+        Gallery part css end
+    ============================ */
+
+
+    /* ============================
+        Video part css start
+    ============================ */
+    #video-part .overlay {
+        padding: 100px 0;
+    }
+
+    #video-part .overlay .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    /* ============================
+        Video part css end
+    ============================ */
+
+
+    /* ============================
+            Chef part css start
+    ============================ */
+    #chef-part {
+        padding: 100px 0;
+    }
+
+    #chef-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    #chef-part .chef .img .chef-overlay .details {
+        bottom: -8px;
+    }
+
+    #chef-part .chef .img .chef-overlay .details h4 {
+        font-size: 17px;
+    }
+
+    #chef-part .chef .img .chef-overlay .details p {
+        font-size: 14px;
+    }
+
+    #chef-part .chef .img .chef-overlay .details .icons {
+        margin-top: 4px;
+    }
+
+    #chef-part .chef .img .chef-overlay .details .icons a {
+        font-size: 18px;
+        padding: 0 8px;
+    }
+
+    /* ============================
+            Chef part css end
+    ============================ */
+
+
+    /* ============================
+        Resarvation part css start
+    ============================ */
+    #resarvation-part {
+        padding: 100px 0;
+    }
+
+    #resarvation-part .title p {
+        font-size: 14px;
+        width: 500px;
+        margin-top: 10px;
+    }
+
+    #resarvation-part form {
+        width: 85%;
+    }
+
+    #resarvation-part form .form-item input {
+        width: 350px;
+        font-size: 14px;
+        padding: 6px;
+        margin: 8px 5px;
+    }
+
+    #resarvation-part form .form-item select {
+        width: 350px;
+        font-size: 14px;
+        padding: 7.5px;
+        margin: 8px 5px;
+    }
+
+    /* ============================
+        Resarvation part css end
+    ============================ */
+
+    /* ============================
+      Go top button part css start
+    ============================ */
+    .top-button span {
+        font-size: 20px;
+        padding: 6px 10px;
+    }
+
+    /* ============================
+        Go top button part css end
+    ============================ */
+
+
+    /* ============================
+        Footer part css start
+    ============================ */
+    #footer-part {
+        padding: 100px 0 20px 0;
+    }
+
+    #footer-part .title h4 {
+        font-size: 22px;
+    }
+
+    #footer-part .details p {
+        font-size: 14px;
+        width: 313px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    #footer-part ul {
+        margin-top: 17px;
+    }
+
+    #footer-part .contact ul li {
+        font-size: 14px;
+    }
+
+    #footer-part .service ul li a {
+        font-size: 14px;
+    }
+
+    #footer-part .copy-part p {
+        font-size: 16px;
+    }
+
+    /* ============================
+        Footer part css end
+    ============================ */
+
+
+}

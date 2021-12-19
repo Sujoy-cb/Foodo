@@ -1,0 +1,849 @@
+/* ============================
+    common css start
+============================ */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a,a:focus{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.buttons{
+    margin-top: 20px;
+}
+.buttons a{
+    position: relative;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #303030;
+    font-weight: 500;
+    text-transform: uppercase;
+    background: #ffc200;
+    padding: 10px 15px;
+    border: 1px solid #ffc200;
+    border-radius: 5px;
+    transition: .4s;
+}
+.buttons a:before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -1px;
+    width: 100%;
+    height: 126%;
+    background: transparent;
+    border: 1px solid #ffc200;
+    transform: scale(1);
+    opacity: 0;
+    transition: .2s;
+}
+.buttons a:hover:before{
+    opacity: 1;
+    transform: scale(1.1);
+}
+.title{
+    text-align: center;
+}
+.title h3{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 45px;
+    color: #ffc200;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-shadow: 3px 2px 4px rgb(0, 0, 0 , 0.75);
+}
+
+
+/* ============================
+    common css end
+============================ */
+
+/*============================
+     Preloader part css start
+=============================*/
+#preloader-part{
+    width: 100%;
+    height: 100vh;
+    background: #fed900;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+#preloader-part .loader{
+    margin: 0 auto;
+}
+
+/*============================
+     Preloader part css end
+=============================*/
+
+
+/* ============================
+    Nav bar part css start
+============================ */
+nav{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+.fixedmenu{
+    background: #303030;
+    border-bottom: 1px solid #ffc200;
+}
+nav ul{
+    margin-top: 25px;
+}
+nav ul li{
+    margin-left: 40px;
+}
+nav ul li a{
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    transition: .4s;
+}
+nav ul li .active{
+    color: #ffc200;
+}
+nav .icon a{
+    display: inline-block;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-top: 25px;
+    transition: .4s;
+}
+nav ul li:hover a{
+    color: #ffc200;
+}
+nav .icon a:hover{
+    color: #ffc200;
+}
+nav .m-menu{
+    display: none;
+}
+/* ============================
+    Nav bar part css end
+============================ */
+
+/* ============================
+    Search part css start
+============================ */
+#search-part{
+    position: relative;
+}
+#search-part .search-overlay{
+    width: 30%;
+    background: #ffffff;
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    padding: 20px 10px;
+    display: none;
+    z-index: 222;
+}
+#search-part .search-overlay input{
+    width: 85%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    outline: 0;
+    padding: 6px;
+    border-radius: 50px;
+    border: 1px solid #dedede;
+    -webkit-box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 3px 1px rgba(0,0,0,0.14);
+}
+#search-part .search-overlay button{
+    border: 0;
+    background: transparent;
+    position: absolute;
+    top: 26px;
+    right: 82px;
+}
+#search-part .search-overlay button svg{
+    color: #ffc200;
+    outline: 0;
+}
+#search-part .search-overlay .cross{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    color: #ffc200;
+    cursor: pointer;
+}
+/* ============================
+    Search part css end
+============================ */
+
+
+/* ============================
+    Banner part css start
+============================ */
+#banner-part .banner{
+    background: url(../images/banner-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 120px 0;
+}
+#banner-part .text h1{
+    font-family: 'Grand Hotel', cursive;
+    font-size: 80px;
+    color: #ffc200;
+    font-weight: 400;
+    margin-top: 230px;
+}
+#banner-part .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 26px;
+    width: 500px;
+}
+
+/* ============================
+    Banner part css end
+============================ */
+
+
+/* ============================
+    About part css start
+============================ */
+#about-part{
+    background: #ffffff;
+    padding: 120px 0;
+}
+#about-part .item{
+    margin-top: 60px;
+}
+#about-part .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 26px;
+    width: 540px;
+}
+#about-part .text p:nth-child(2){
+    margin-top: 40px;
+}
+#about-part .img img{
+    width: 100%;
+}
+#about-part .small-part{
+    display: none;
+}
+/* ============================
+    About part css end
+============================ */
+
+
+/* ============================
+    Seller part css start
+============================ */
+#seller-part{
+    background: #f5f5f5;
+    padding: 120px 0;
+}
+#seller-part .title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 26px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+}
+#seller-part .item{
+    margin-top: 60px;
+    background: #ffffff;
+    text-align: center;
+    padding: 5px 20px 20px 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: .4s;
+}
+#seller-part .item .img{
+    padding: 5px 20px 20px 20px;
+}
+#seller-part .item .text h3{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    color: #444444;
+}
+#seller-part .item .text p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 20px;
+}
+#seller-part .item:hover{
+    box-shadow: 0px 1px 14px 1px rgba(0,0,0,0.14);
+}
+/* ============================
+    Seller part css end
+============================ */
+
+
+/* ============================
+    Oriental part css start
+============================ */
+#oriental-part{
+    background: url(../images/bg-img.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+#oriental-part .title h3{
+    text-shadow: 1px 1px 3px rgb(255, 255, 255, 0.50);
+}
+#oriental-part img{
+    width: 100%;
+}
+
+#oriental-part .img img{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 14px #ffc200;
+}
+#oriental-part .text{
+    position: relative;
+}
+#oriental-part .text .veg-img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#oriental-part .text .veg2{
+    top: 40%;
+    left: 30%;
+}
+#oriental-part .text .veg3{
+    top: -34%;
+    left: 0%;
+    width: 20px;
+}
+#oriental-part .text .veg4{
+    top: 112%;
+    left: -15%;
+    width: 65px;
+}
+#oriental-part .text .veg5{
+    top: -51%;
+    left: 47%;
+    width: 20px;
+}
+#oriental-part .text .veg6{
+    top: 80%;
+    left: 73%;
+    width: 70px;
+}
+#oriental-part .text .veg7{
+    top: -10%;
+    left: 65%;
+}
+#oriental-part .text .title{
+    text-align: left;
+    margin-top: 100px;
+}
+#oriental-part .text .title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 26px;
+    width: 400px;
+    margin-top: 20px !important;
+}
+#oriental-part .text .buttons{
+    margin-top: 30px;
+}
+/* ============================
+    Oriental part css end
+============================ */
+
+
+
+/* ============================
+    Counter part css start
+============================ */
+#counter-part{
+    position: relative;
+    background: url(../images/bg-img.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+}
+#counter-part .title h3{
+    text-shadow: 1px 1px 3px rgb(255, 255, 255, 0.50);
+}
+#counter-part .title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 26px;
+    width: 520px;
+    margin-top: 20px !important;
+    margin: auto;
+}
+#counter-part .time-box{
+    width: 261px;
+    height: 261px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+    margin-top: 60px;
+}
+#counter-part .time-box .single-counterup{
+    margin-top: 60px;
+}
+#counter-part .time-box .count-num{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    color: #ffc200;
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+#counter-part .time-box h4{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 400;
+}
+/* ============================
+    Counter part css end
+============================ */
+
+/* ============================
+    Gallery part css start
+============================ */
+#gallery-part{
+    background: url(../images/white-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 100px 0;
+}
+#gallery-part .small-part{
+    display: none;
+}
+#gallery-part .title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 26px;
+    width: 520px;
+    margin-top: 20px !important;
+    margin: auto;
+}
+#gallery-part .top-gallery .food-item{
+    margin-top: 60px;
+}
+#gallery-part .bottom-gallery .food-item{
+    margin-top: 25px;
+}
+#gallery-part .food-item .img{
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 10px 1px rgba(0,0,0,0.14);
+}
+#gallery-part .food-item .img img{
+    width: 100%;
+}
+#gallery-part .food-item .img .name-price{
+    position: absolute;
+    bottom: 15px;
+    left: -357px;
+    width: 100%;
+    background: rgb(255, 194, 0, 0.7);
+    padding: 15px;
+    text-align: center;
+    transition: .4s;
+}
+#gallery-part .food-item .img .name-price h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #444444;
+    font-weight: 600;
+}
+#gallery-part .food-item .img .name-price h5 span{
+    display: inline-block;
+    margin-left: 100px;
+}
+#gallery-part .food-item .img:hover .name-price{
+    left: 0;
+}
+#gallery-part .buttons{
+    text-align: center;
+    margin-top: 40px;
+}
+/* ============================
+    Gallery part css end
+============================ */
+
+
+/* ============================
+    Video part css start
+============================ */
+#video-part{
+    background: url(../images/chef-bg.png) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#video-part .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    padding: 100px 0;
+}
+#video-part .overlay .title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 26px;
+    width: 520px;
+    margin-top: 20px !important;
+    margin: auto;
+}
+#video-part .overlay .play-button{
+    text-align: center;
+}
+#video-part .overlay .play-button a{
+    display: inline-block;
+    font-size: 50px;
+    color: #ffc200;
+    margin-top: 60px;
+}
+/* ============================
+    Video part css end
+============================ */
+
+
+/* ============================
+    Chef part css start
+============================ */
+#chef-part{
+    background: url(../images/white-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 120px 0;
+}
+#chef-part .title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 26px;
+    width: 520px;
+    margin-top: 20px !important;
+    margin: auto;
+}
+#chef-part .chef{
+    margin-top: 60px;
+    overflow: hidden;
+}
+#chef-part .chef .img{
+    position: relative;
+}
+#chef-part .chef .img img{
+    width: 100%;
+}
+#chef-part .chef .img .chef-overlay{
+    position: absolute;
+    top: 175px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 194, 0, 0.7);
+    clip-path: polygon(0 75%, 100% 49%, 100% 100%, 0% 100%);
+    transition: .4s;
+}
+#chef-part .chef .img .chef-overlay .details{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    padding: 15px 0;
+}
+#chef-part .chef .img .chef-overlay .details h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #444444;
+    font-weight: 500;
+}
+#chef-part .chef .img .chef-overlay .details p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 500;
+}
+#chef-part .chef .img .chef-overlay .details .icons{
+    margin-top: 5px;
+}
+#chef-part .chef .img .chef-overlay .details .icons a{
+    display: inline-block;
+    color: #444444;
+    border: 1px solid #444444;
+    font-size: 20px;
+    margin: 0 5px;
+    padding: 0 10px;
+    transition: .4s;
+}
+#chef-part .chef:hover .img .chef-overlay{
+    top: 1px;
+}
+#chef-part .chef .img .chef-overlay .details .icons a:hover{
+    color: #fff;
+    background: #444444;
+    border: 1px solid #444444;
+}
+/* ============================
+    Chef part css end
+============================ */
+
+
+/* ============================
+    Resarvation part css start
+============================ */
+#resarvation-part{
+    background: url(../images/reservation-bg.png) no-repeat center;
+    background-size: cover;
+    padding: 120px 0;
+}
+#resarvation-part .title h3{
+    color: #444444;
+    text-shadow: 3px 2px 4px rgba(219, 219, 219, 0.75);
+}
+#resarvation-part .title p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    font-weight: 400;
+    line-height: 26px;
+    width: 520px;
+    margin-top: 20px !important;
+    margin: auto;
+}
+#resarvation-part form{
+    background: #f5f5f5;
+    width: 70%;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 60px !important;
+}
+#resarvation-part form .form-item{
+    text-align: center;
+}
+#resarvation-part form .form-item input{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    width: 350px;
+    margin: 15px 5px;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    outline: 0;
+}
+#resarvation-part form .form-item input:focus{
+    border: 1px solid #ffc200;
+}
+#resarvation-part form .form-item select{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #444444;
+    width: 350px;
+    margin: 15px 5px;
+    padding: 10px;
+    border: 1px solid #303030;
+    border-radius: 5px;
+    background: transparent;
+    outline: 0;
+}
+#resarvation-part form .form-item select:focus{
+    border: 1px solid #ffc200;
+}
+#resarvation-part form .buttons{
+    text-align: center;
+}
+#resarvation-part form .buttons button{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #444444;
+    font-weight: 500;
+    background: #ffc200;
+    border: 1px solid #ffc200;
+    border-radius: 5px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    position: relative;
+}
+#resarvation-part form .buttons button:before{
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -1px;
+    width: 100%;
+    height: 126%;
+    background: transparent;
+    border: 1px solid #ffc200;
+    transform: scale(1);
+    opacity: 0;
+    transition: .2s;
+}
+#resarvation-part form .buttons button:hover:before{
+    opacity: 1;
+    transform: scale(1.1);
+}
+/* ============================
+    Resarvation part css end
+============================ */
+
+/* ============================
+Go top button part css start
+============================ */
+.top-button{
+    background: #ffc200;
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    display: none;
+}
+.top-button span{
+    display: inline-block;
+    color: #444444;
+    font-size: 25px;
+    padding: 8px 12px;
+    border: 1px solid #444444;
+}
+
+/* ============================
+Go top button part css end
+============================ */
+
+
+/* ============================
+    Footer part css start
+============================ */
+#footer-part{
+    background: #303030;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+#footer-part .title h4{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: left;
+}
+#footer-part .details p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    line-height: 24px;
+    width: 352px;
+    margin-top: 20px;
+}
+#footer-part .top-gap{
+    margin-top: 42px;
+}
+#footer-part ul{
+    padding-left: 0 !important;
+    margin-top: 30px;
+}
+#footer-part .contact ul li{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+#footer-part .contact ul li span{
+    margin-right: 10px;
+}
+#footer-part .service ul li{
+    margin-top: 7px;
+}
+#footer-part .service ul li a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    transition: .4s;
+}
+#footer-part .follow .title h4{
+    text-align: center;
+}
+#footer-part .follow{
+    text-align: center;
+}
+#footer-part .follow .icons{
+    margin-top: 20px;
+}
+#footer-part .follow .icons a{
+    display: inline-block;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 5px 10px;
+    margin: 0 5px;
+    transition: .4s;
+}
+#footer-part .follow .icons .fb{
+    padding: 5px 14px;
+}
+#footer-part .follow .icons .insta{
+    padding: 5px 12px;
+}
+#footer-part .follow .icons a:hover{
+    color: #444444;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+}
+#footer-part .copy-part{
+    border-top: 1px solid #dedede;
+}
+#footer-part .copy-part p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 15px;
+}
+#footer-part .contact ul li:hover{
+    color: #ffc200;
+}
+#footer-part .service ul li a:hover{
+    color: #ffc200;
+}
+/* ============================
+    Footer part css end
+============================ */
